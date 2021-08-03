@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 200px auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+h6 {
+    font-size: 17px;
+    /* font-weight: bold; */
+    font-family: Arial;
+}
+
+p { font-family: Arial; }
+
+.card {
+    width : 700px;
+    border: 2px dashed black;
+    /* margin auto는 card 자체를 가운데 정렬
+    text-align 은 안에 있는 것들을 중앙으로 정렬 */
+    margin:auto;
+}
+.card-nav {
+	position: card-nav;
+	background-color: rgb(126, 166, 195);
+	color: white;
+    /* inline or block의 인라인 내부 요소를 중앙정렬 */
+	text-align: center;
+	line-height: 40px;
+}
+
+.card-header { margin: 18px; }
+
+img.card-img {
+    display: block;
+	height: 550px; width: 100%
+}
+
+div.card-img-description {
+    background-color: rgb(211, 170, 182);
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+
+div.card-img-description h6 {
+    position: relative;
+    top: 9px;
+}
+
+.card-body { padding: 18px; }
+
+div.card-body-title h4 { display: inline; }
+
+div.card-body-title p {
+    display: inline;
+    position: relative;
+    left: 450px;
+    /* top: 8px; */
+}
+
+div.card-body-content {
+    background-color: rgb(203, 191, 185);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+div.card-body-content p { padding: 12px 10px; }
+
+div.card-footer {
+    background-color: rgb(126, 166, 195);
+    color: white;
+    text-align: end;
+    font-family: Arial;
+    padding: 10px;
+}
